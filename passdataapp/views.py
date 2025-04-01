@@ -22,7 +22,7 @@ def dice3(request):
    return render(request,"dice3.html",locals())
       
 def show(request):
-    person1={"name":"陳春億","學號":"41118147","age":20}
+    person1={"name":"陳春億","phone":"41118147","age":20}
     person2={"name":"Jack","phone":"02-4455666","age":25}
     person3={"name":"Nacy","phone":"04-9876543","age":17}
     persons=[person1,person2,person3]
